@@ -19,7 +19,7 @@ SMTP_HOST = os.environ.get('SMTP_HOST', 'smtp.gmail.com')
 SMTP_PORT = int(os.environ.get('SMTP_PORT', '587'))
 SMTP_USER = os.environ.get('OUTREACH_EMAIL', '')
 SMTP_PASS = os.environ.get('OUTREACH_PASS', '')
-FROM_NAME = 'Pankaj | Automation Expert'
+FROM_NAME = 'themusafir | Automation Expert'
 
 # Rate limiting
 MAX_EMAILS_PER_RUN = 20
@@ -76,7 +76,7 @@ Price: ₹799 (one-time, lifetime access)
 Worth a 10-minute look?
 
 Best,
-Pankaj
+themusafir
 """
         },
         'coaching': {
@@ -103,7 +103,7 @@ Price: ₹999 (includes n8n workflows + setup guide)
 Would you like a free 15-minute demo call this week?
 
 Best,
-Pankaj
+themusafir
 """
         },
         'gym': {
@@ -130,7 +130,7 @@ Price: ₹799
 Worth a quick look?
 
 Best,
-Pankaj
+themusafir
 """
         },
         'cafe': {
@@ -157,7 +157,7 @@ Price: ₹799
 Would love to show you how it works on a quick call.
 
 Best,
-Pankaj
+themusafir
 """
         },
         'hotel': {
@@ -184,7 +184,7 @@ Price: ₹999
 Can we do a 10-minute demo this week?
 
 Best,
-Pankaj
+themusafir
 """
         },
         'restaurant': {
@@ -207,7 +207,7 @@ Price: ₹799
 Worth a quick look?
 
 Best,
-Pankaj
+themusafir
 """
         },
         'salon': {
@@ -227,7 +227,7 @@ Templates ready: {STORE_URL}
 Price: ₹799
 
 Best,
-Pankaj
+themusafir
 """
         },
         'pathlab': {
@@ -247,7 +247,7 @@ Templates ready: {STORE_URL}
 Price: ₹799
 
 Best,
-Pankaj
+themusafir
 """
         },
         'tutor': {
@@ -267,7 +267,7 @@ All templates: {STORE_URL}
 Price: ₹599 (AI Content Bundle) or ₹999 (full n8n pack)
 
 Best,
-Pankaj
+themusafir
 """
         },
         'photographer': {
@@ -287,7 +287,7 @@ Templates: {STORE_URL}
 Price: ₹799
 
 Best,
-Pankaj
+themusafir
 """
         },
     }
@@ -312,7 +312,7 @@ Prices start at ₹599. Most customers set this up in under 30 minutes.
 Interested? Happy to do a free 10-minute demo.
 
 Best,
-Pankaj
+themusafir
 """
     }
     
@@ -343,7 +343,7 @@ def send_email(to_email, subject, body, from_name=FROM_NAME):
         {body_for_html}
         <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
         <p style="color: #666; font-size: 12px;">
-        Sent by Pankaj | Automation Expert<br>
+        Sent by themusafir | Automation Expert<br>
         Store: <a href="{STORE_URL}">{STORE_URL}</a>
         </p>
         </div></div></body></html>

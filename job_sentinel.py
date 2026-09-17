@@ -12,7 +12,7 @@ import sqlite3
 from datetime import datetime, timedelta
 
 # Telegram config
-BOT_TOKEN = os.environ.get('TG_BOT_TOKEN', '8866563797:AAHDbk_LaD4gtwzIc8i1K0Ud1o3HMdmhCvY')
+BOT_TOKEN = os.environ.get('TG_BOT_TOKEN', 'YOUR_TELEGRAM_BOT_TOKEN')
 CHAT_ID = os.environ.get('TG_CHAT_ID', '1012757518')
 
 # Keywords to watch for

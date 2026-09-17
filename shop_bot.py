@@ -13,7 +13,7 @@ from telegram.ext import (
 from pathlib import Path
 
 # === CONFIG ===
-BOT_TOKEN = os.environ.get('TG_SHOP_TOKEN', '8866563797:AAHDbk_LaD4gtwzIc8i1K0Ud1o3HMdmhCvY')
+BOT_TOKEN = os.environ.get('TG_SHOP_TOKEN', 'YOUR_TELEGRAM_BOT_TOKEN')
 PRODUCTS_DIR = Path('/home/ubuntu/hermes_scripts/shop_products')
 UPI_ID = '9649228281@yescred'
 ADMIN_CHAT_ID = '1012757518'
