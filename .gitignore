@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Data and Logs
+*.csv
+*.db
+*.sqlite3
+*.log
+last_check.json
+
+# Sensitive Credentials
+.env
+.env.local
+*.key
+*.pem
