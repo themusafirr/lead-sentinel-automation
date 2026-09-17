@@ -92,4 +92,4 @@ Need custom scrapers, targeted B2B lead lists, or automated outreach funnels for
 ---
 
 ## 📄 License
-MIT License. Developed by Pankaj (@the.musafir).
+MIT License. Built by **[the.musafir](https://github.com/pixelssudio)** — Full-Stack AI Engineer.
